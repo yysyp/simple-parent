@@ -1,26 +1,20 @@
-
 git-ignored-file
 gitIgnoredFile
 upload-folder/
 ignorefolder/
+tmp/
+out/
 mypythonvenv
 venv
 .venv
 
 *.tmp
 *.bak
-*.log
 
-###windows###
+### windows ###
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-
-###Java-related###
-*.class
-*.jar
-*.war
-*.ear
 
 ### Gradle ###
 .gradle
@@ -30,12 +24,7 @@ gradle-app.setting
 
 ## !gradle-wrapper.jar
 ## !gradle/wrapper/gradle-wrapper.jar
-
 .gradletasknamecache
-##/build/ only igonre the build folder in root dir
-build/
-
-target/
 
 ### STS ###
 .apt_generated
@@ -45,14 +34,6 @@ target/
 .settings
 .springBeans
 .sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
-*.output
 
 ### NetBeans ###
 nbproject/private/
@@ -72,26 +53,13 @@ node_modules/
 /.mfsu
 .swc
 
-### others###
-
+### others ###
 # Word ... temporary ~$*.xls*
 ~$*
 *.xlk
 
 # Visio autosave temporary files
 *.~vsd*
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-.mvn
-
-3-learn/33-coding/337-mytool-demo-snippet-code/simple-e-commerce/
-#/sample1/src/main/resources/keys/
-/tmp/
 
 # Compiled class file
 *.class
@@ -114,7 +82,7 @@ hs_err_pid*
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# virtual machine crash logs
 hs_err_pid*
 replay_pid*
 
@@ -123,13 +91,9 @@ replay_pid*
 *.iws
 *.iml
 *.ipr
+*.output
 
-##/build/ only igonre the build folder in root dir
+##/build/ will only igonre the build folder in root dir
 build/
-
 target/
-
-##
 .mvn
-/tmp/
-
