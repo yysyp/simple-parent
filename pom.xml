@@ -21,6 +21,8 @@
         <module>simple-web1</module>
         <module>simple-web2</module>
         <module>simple-web3</module>
+        <module>simple-web4</module>
+        <module>simple-web5</module>
     </modules>
 
     <properties>
